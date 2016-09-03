@@ -88,7 +88,7 @@ public class ColorsFragment extends Fragment{
         // Create a WordAdapter whose data source is a list of Words
         WordAdapter adapter = new WordAdapter(getActivity(), words, R.color.category_colors);
 
-        // Find the ListView object in the view hierarchy of the ColorsActivity
+        // Find the ListView object in the view hierarchy of the Activity
         ListView listView = (ListView) rootView.findViewById(R.id.list);
 
         // Make the ListView by using the WordAdapter, so that the ListView will display list item for each Word in the list
