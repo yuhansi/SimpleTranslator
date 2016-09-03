@@ -37,7 +37,7 @@
 
     <!-- Text appearance style for a category tab -->
     <style name="CategoryTabTextAppearance" parent="TextAppearance.Design.Tab">
-        <item name="textColor">#A8A19E</item>
+        <item name="android:textColor">#A8A19E</item>
     </style>
 
 </resources>
